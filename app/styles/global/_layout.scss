@@ -1,3 +1,15 @@
 // - - - - - - - - - - - - - - - - - - -
 // - - layout
 // global layout classes - height, width, padding, margin, etc.
+
+.full-height-container {
+    height:100vh;
+}
+
+
+.centre
+{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+}

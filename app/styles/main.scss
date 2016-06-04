@@ -2,6 +2,7 @@
 // endbower
 @charset 'utf-8';
 
+
 // - - css-burrito v1.6 | mit license | github.com/jasonreece/css-burrito
 
 // - - - - - - - - - - - - - - - - - - -
@@ -13,11 +14,6 @@
 @import 'libs/library-variable-overrides';
 
 // - - - - - - - - - - - - - - - - - - -
-// - - libs
-// add 3rd party libraries here.
-// be sure to load them after the variable overrides file
-
-// - - - - - - - - - - - - - - - - - - -
 // - - global
 
 // - - global/settings
@@ -27,10 +23,6 @@
 // - - global/utilities
 // extends, functions, and mixins
 @import 'global/utilities';
-
-// - - global/base
-// base-level tags (body, p, etc.)
-@import 'global/base';
 
 // - - global/layout
 // margin, padding, sizing
@@ -44,10 +36,22 @@
 // fonts and colors
 @import 'global/typography';
 
+// - - global/base
+// base-level tags (body, p, etc.)
+@import 'global/base';
+
 // - - - - - - - - - - - - - - - - - - -
 // - - modules
 // add new modules to the modules/_modules.scss file and they'll get pulled in here.
 @import 'modules/modules';
+
+// - - - - - - - - - - - - - - - - - - -
+// - - libs
+// add 3rd party libraries here.
+// be sure to load them after the variable overrides file
+@import 'libs/milligram';
+@import 'libs/digital-countdown';
+
 
 // - - - - - - - - - - - - - - - - - - -
 // - - inbox
