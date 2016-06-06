@@ -6,4 +6,9 @@ $(function(){
         labels: false,
         showBlank: true
     });
+    // hide sumoMe side bar....
+    $("a[title='SumoMe']").hide();
+    // hide / show modal
+    // $('.sumome-vex.sumome-popup.sumome-popup-mode-subscribe').show();
+    // $('.sumome-vex.sumome-popup.sumome-popup-mode-subscribe').hide();
 });
