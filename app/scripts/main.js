@@ -7,7 +7,7 @@ $(function(){
         showBlank: true
     });
     // hide sumoMe side bar....
-    setTimeout(function() { $('a[title=\'SumoMe\']').hide(); }, noMSecsReqToHideSumoMe);
+    // setTimeout(function() { $('a[title=\'SumoMe\']').hide(); }, noMSecsReqToHideSumoMe);
     // to override: $('a[title=\'SumoMe\']').show();
 
     // hide / show modal
