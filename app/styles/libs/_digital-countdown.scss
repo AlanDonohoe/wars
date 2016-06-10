@@ -16,8 +16,25 @@
     .clock {
       min-width: 430px; } }
 
-.digit {
+.digit.real-number {
   width: 60px;
+  height: 120px;
+  background-color: black;
+  position: relative;
+  display: inline-block; }
+  @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
+    .digit {
+      width: 40px;
+      height: 80px; } }
+  @media only screen and (max-width: 40.063em) {
+    .digit {
+      width: 30px;
+      height: 60px; } }
+
+
+.digit.comma {
+  /*TODO @extend .digit.real-number;*/
+  width: 30px;
   height: 120px;
   background-color: black;
   position: relative;
@@ -262,17 +279,47 @@
   left: 3.6px;
   width: 52.8px;
   height: 0;
-  border-bottom-color: $light-blue; }
-  @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
-    .d7 {
-      bottom: 1.6px;
-      left: 2.4px;
-      width: 35.2px; } }
-  @media only screen and (max-width: 40.063em) {
-    .d7 {
-      bottom: 1.2px;
-      left: 1.8px;
-      width: 26.4px; } }
+  border-bottom-color: $light-blue;
+}
+@media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
+  .d7 {
+    bottom: 1.6px;
+    left: 2.4px;
+    width: 35.2px;
+  }
+}
+@media only screen and (max-width: 40.063em) {
+  .d7 {
+    bottom: 1.2px;
+    left: 1.8px;
+    width: 26.4px;
+  }
+}
+
+.comma {
+  bottom: 2.4px;
+  /*left: 3.6px;*/
+  width: 52.8px;
+  height: 0;
+  /*width: 30px;*/
+  /*border-bottom-color: $light-blue;*/
+  color: $light-blue;
+  font-size: 50px
+}
+@media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
+  .comma {
+    bottom: 1.6px;
+    left: 2.4px;
+    width: 35.2px;
+  }
+}
+@media only screen and (max-width: 40.063em) {
+  .comma {
+    bottom: 1.2px;
+    left: 1.8px;
+    width: 26.4px;
+  }
+}
 
 /* 1 */
 .digit.one .d3,
@@ -353,9 +400,56 @@
   opacity: 1; }
 
 /* comma */
-.comma {
-  
+/*.digit.comma .d5  {
+  opacity: 1;
+
+}*/
+
+
+/*.comma {
+  bottom: 2.4px;
+  left: 3.6px;
+  width: 52.8px;
+  height: 0;
+  border-bottom-color: $light-blue; 
+  opacity: 1;
+  /*display: inline;
 }
+  @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
+    .comma {
+      bottom: 1.6px;
+      left: 2.4px;
+      width: 35.2px; } }
+  @media only screen and (max-width: 40.063em) {
+    .comma {
+      bottom: 1.2px;
+      left: 1.8px;
+      width: 26.4px; } }*/
+
+/*.digit.comma .d7 {
+ top: 2.4px;
+  left: 3.6px;
+  width: 52.8px;
+  height: 0;
+  border-top-color: $light-blue;
+  opacity: 1;
+}
+*/
+/*@media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
+  .comma {
+    top: 1.6px;
+    left: 2.4px;
+    width: 35.2px; 
+  }
+}
+
+@media only screen and (max-width: 40.063em) {
+  .comma {
+    top: 1.2px;
+    left: 1.8px;
+    width: 26.4px;
+  }
+}*/
 
 /* Labels */
 .labels {
