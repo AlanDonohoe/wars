@@ -34,7 +34,7 @@
 
 .digit.comma {
   /*TODO @extend .digit.real-number;*/
-  width: 30px;
+  width: 20px;
   height: 120px;
   background-color: black;
   position: relative;
@@ -45,7 +45,7 @@
       height: 80px; } }
   @media only screen and (max-width: 40.063em) {
     .digit {
-      width: 30px;
+      width: 20px;
       height: 60px; } }
 
 .dots {
@@ -304,7 +304,7 @@
   /*width: 30px;*/
   /*border-bottom-color: $light-blue;*/
   color: $light-blue;
-  font-size: 50px;
+  font-size: 25px;
 }
 @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
   .comma {
