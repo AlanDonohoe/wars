@@ -3,50 +3,50 @@
 /* Tablet */
 /* Mobile */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-/*body {
-  background: #EEE;
-  font-family: sans-serif; }
-*/
 .clock {
   background-color: black;
-  padding: 10px; }
-  @media only screen and (max-width: 40.063em) {
-    .clock {
-      min-width: 430px; } }
+  padding: 10px;
+}
+
+@media only screen and (max-width: 40.063em) {
+  .clock {
+    min-width: 430px;
+  }
+}
+
+.digit {
+  height: 120px;
+  background-color: black;
+  position: relative;
+  display: inline-block; 
+}
+
+@media only screen and (max-width: 40.063em) {
+  .digit {
+    width: 30px;
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
+  .digit {
+    width: 40px;
+    height: 80px;
+  }
+}
 
 .digit.real-number {
+  @extend .digit;
   width: 60px;
-  height: 120px;
-  background-color: black;
-  position: relative;
-  display: inline-block; }
-  @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
-    .digit {
-      width: 40px;
-      height: 80px; } }
-  @media only screen and (max-width: 40.063em) {
-    .digit {
-      width: 30px;
-      height: 60px; } }
-
+}
 
 .digit.comma {
-  /*TODO @extend .digit.real-number;*/
+  @extend .digit;
   width: 20px;
-  height: 120px;
-  background-color: black;
-  position: relative;
-  display: inline-block; }
-  @media only screen and (min-width: 40.064em) and (max-width: 49.999em) {
-    .digit {
-      width: 40px;
-      height: 80px; } }
-  @media only screen and (max-width: 40.063em) {
-    .digit {
-      width: 20px;
-      height: 60px; } }
+}
 
 .dots {
   display: inline-block;

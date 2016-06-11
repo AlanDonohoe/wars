@@ -2,7 +2,7 @@ $(function(){
   'use strict';
   // var noMSecsReqToHideSumoMe = 1500;
     $('.clock').countdownDigital({
-        dateTo: '2016-09-16T16:00',
+        dateTo: '2016-09-23T20:00',
         labels: false,
         showBlank: true
     });
