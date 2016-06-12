@@ -4,11 +4,9 @@ $(function(){
     $('.clock').countdownDigital({
         dateTo: '2016-09-23T20:00',
         labels: false,
-        showBlank: true
+        showBlank: true,
+        showMSecs: false
     });
-    // hide sumoMe side bar....
-    // setTimeout(function() { $('a[title=\'SumoMe\']').hide(); }, noMSecsReqToHideSumoMe);
-    // to override: $('a[title=\'SumoMe\']').show();
 
     // hide / show modal
     // $('a[title=\'SumoMe\']').show();
