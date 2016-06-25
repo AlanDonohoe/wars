@@ -24,10 +24,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .flex-item {
-    /* background-color: tomato; */
     padding: 5px;
     margin: 10px;
     text-align: center;
