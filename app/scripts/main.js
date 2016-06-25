@@ -5,7 +5,8 @@ $(function(){
         dateTo: '2016-09-23T20:00',
         labels: false,
         showBlank: true,
-        showMSecs: false
+        showMSecs: true,
+        seperatorChar: ','
     });
 
     // hide / show modal
