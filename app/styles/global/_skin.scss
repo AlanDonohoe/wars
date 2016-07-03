@@ -28,9 +28,9 @@ $dark-grey: #333333;
 
 @keyframes pulse {
   0% {
-    -webkit-box-shadow: 0px 0px 200px $light-blue;
-       -moz-box-shadow: 0px 0px 200px $light-blue;
-            box-shadow: 0px 0px 200px $light-blue; /* some variation of blue for the shadow */
+    -webkit-box-shadow: 0px 0px 100px $light-blue;
+       -moz-box-shadow: 0px 0px 100px $light-blue;
+            box-shadow: 0px 0px 100px $light-blue; /* some variation of blue for the shadow */
   }
   50% {
     -webkit-box-shadow: 0px 0px 10px $light-blue;
@@ -38,9 +38,9 @@ $dark-grey: #333333;
             box-shadow: 0px 0px 10px $light-blue; /* some variation of blue for the shadow */
  }
   100% {
-    -webkit-box-shadow: 0px 0px 200px $light-blue;
-       -moz-box-shadow: 0px 0px 200px $light-blue;
-            box-shadow: 0px 0px 200px $light-blue; /* some variation of blue for the shadow */
+    -webkit-box-shadow: 0px 0px 100px $light-blue;
+       -moz-box-shadow: 0px 0px 100px $light-blue;
+            box-shadow: 0px 0px 100px $light-blue; /* some variation of blue for the shadow */
  }
  
 }
