@@ -4,13 +4,9 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: $dark-grey;
 }
 
 html, body {
     height: 100%;
-}
-
-img {
-	width: 50%;
 }
